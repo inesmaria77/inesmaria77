@@ -49,11 +49,11 @@ display: inline-block;
 }
 
 #hello {
-	background: gainsboro;
+	background: skyblue;
 }
 
 #hello1 {
-	background: grey;
+	background: pink;
 	height: 5px;
 }
 
@@ -61,21 +61,81 @@ display: inline-block;
 background: url(images/maribor.jpg) no-repeat;
 width: 100%;
 height:600px;
-
 background-position: center;
 background-size: cover;
 }
 
+#hello3 {
+font-family: 'Open Sans Condensed', sans-serif;
+color: white;
+text-shadow: currentColor;
+float: center;
+text-align: center;
+
+}
+
 #hello5 {
   background: url(images/maribor.jpg) no-repeat; 
-
-
 width: 100%;
 height:600px;
-
+text.align: center;
+font-family: 'Dancing Script', cursive;
 background-position: center;
 background-size: cover;
 img:hover 
   opacity: 0.5;
 
 }
+
+#hello7 {
+width: 100%;
+height:600px;
+background-position: center;
+background-size: cover;
+img:hover 
+  opacity: 0.5;
+
+}
+
+#hello6 {
+font-family: 'Open Sans Condensed', sans-serif;
+color: black;
+float: right;
+text-align: center;
+}
+
+
+
+#hello7{
+
+}
+
+.container {
+  position: relative;
+  width: 800px; /* Maximum width */
+  margin: left; /* Center it */
+
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: all; /* Full width */
+  padding: 20px; /* Some padding */
+  object-position: left;
+}
+
+#hello9 {
+	padding-top: all;
+font-family: 'Open Sans Condensed', sans-serif;
+color: black;
+float: left;
+text-align: center;
+margin-left: center;
+
+}
+
+
