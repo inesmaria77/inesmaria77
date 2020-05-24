@@ -68,7 +68,6 @@ background-size: cover;
 }
 
 #hello3 {
-font-family: 'Verdana', sans-serif;
 color: white;
 text-align: center;
 position: absolute;
@@ -79,7 +78,6 @@ position: absolute;
 width: 100%;
 height:600px;
 text-align: center;
-font-family: 'Verdana', cursive;
 background-position: center;
 background-size: cover;
 }
@@ -94,7 +92,6 @@ background-size: cover;
 
 #hello6 {
 padding-left: 30px;
-font-family: 'Verdana', sans-serif;
 color: black;
 float: right;
 text-align: center;
@@ -124,7 +121,6 @@ width: inherit;
 }
 
 #hello9 {
-font-family: 'Verdana', sans-serif;
 color: black;
 float: left;
 text-align: center;
@@ -148,7 +144,6 @@ padding: 0px;
 	text-decoration: none;
 	color: skyblue;
 	margin-left: 10px;
-	font-family: 'Verdana', sans-serif;
 }
 #nav ul {
 	float: right;
@@ -189,7 +184,6 @@ background-size: cover;
 }
 
 #hello3 {
-font-family: 'Verdana', sans-serif;
 color: white;
 text-align: center;
 position: absolute;
@@ -201,7 +195,6 @@ font-size:150%;
 width: 100%;
 height:600px;
 text-align: center;
-font-family: 'Verdana', cursive;
 background-position: center;
 background-size: cover;
 opacity: 0.5;
@@ -215,7 +208,6 @@ background-size: cover;
 }
 
 #hello6 {
-font-family: 'Verdana', sans-serif;
 color: black;
 float: right;
 text-align: left;
@@ -247,7 +239,6 @@ font-size: 110%;
 }
 
 #hello9 {
-font-family: 'Verdana', sans-serif;
 color: black;
 float: left;
 text-align: center;
@@ -256,7 +247,6 @@ font-size: 110%;
 }
 
 #hello11 {
-font-family: 'Verdana', sans-serif;
 padding: 40px;
 color: black;
 float: none;
