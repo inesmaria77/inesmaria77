@@ -1,7 +1,6 @@
-@charset "utf-8"
 
 body{
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Georgia', sans-serif;
 }
 
 * {
@@ -12,7 +11,131 @@ body{
 
 #nav {
 	background: white;
-	width: : 100%;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+
+#nav h1 {
+	float: left;
+
+}
+
+#nav h1 h2 h3 h4 h5 h6 a {
+	text-decoration: none;
+	color: skyblue;
+	margin-left: 10px;
+	font-family: 'Verdana', sans-serif;
+	font: bold; 
+}
+#nav ul {
+	float: right;
+}
+
+#nav ul li {
+text-decoration: none;
+list-style-type: none;
+display: inline-block;
+}
+
+#nav ul li a {
+	text-decoration: none;
+	color: hotpink;
+	padding: 25px;
+	font-size: larger;
+}
+
+#nav ul li :hover {
+	background: lightblue;
+	transition: all ease-in-out 0.40s;
+}
+
+#hello {
+	background: skyblue;
+}
+
+#hello1 {
+	background: pink;
+	height: 5px;
+}
+
+#hello2 {
+background: url(images/maribor.jpg) no-repeat;
+width: 100%;
+height:600px;
+background-position: center;
+background-size: cover;
+}
+
+#hello3 {
+font-family: 'Open Sans Condensed', sans-serif;
+color: white;
+text-align: center;
+position: absolute;
+}
+
+#hello5 {
+ background: url(images/maribor.jpg) no-repeat; 
+width: 100%;
+height:600px;
+text-align: center;
+font-family: 'Dancing Script', cursive;
+background-position: center;
+background-size: cover;
+}
+
+#hello7 {
+padding-left: 30px;
+width: 100%;
+height:600px;
+background-position: center;
+background-size: cover;
+}
+
+#hello6 {
+padding-left: 30px;
+font-family: 'Open Sans Condensed', sans-serif;
+color: black;
+float: right;
+text-align: center;
+font-size: larger;
+}
+
+
+
+#hello7{
+width: inherit;
+}
+
+.container {
+  position: relative;
+  width: 800px; 
+  margin: unset; 
+}
+
+.container .content {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  padding: 20px; 
+  object-position: left;
+}
+
+#hello9 {
+font-family: 'Open Sans Condensed', sans-serif;
+color: black;
+float: left;
+text-align: center;
+margin: 0px;
+padding: 0px;
+}
+
+
+#nav {
+	background: white;
+	width: 100%;
 	height: 60px;
 	line-height: 60px;
 }
@@ -68,23 +191,19 @@ background-size: cover;
 #hello3 {
 font-family: 'Open Sans Condensed', sans-serif;
 color: white;
-text-shadow: currentColor;
-float: center;
 text-align: center;
 position: absolute;
 }
 
 #hello5 {
-  background: url(images/maribor.jpg) no-repeat; 
+ background: url(images/maribor.jpg) no-repeat; 
 width: 100%;
 height:600px;
-text.align: center;
+text-align: center;
 font-family: 'Dancing Script', cursive;
 background-position: center;
 background-size: cover;
-img:hover 
-  opacity: 0.5;
-
+opacity: 0.5;
 }
 
 #hello7 {
@@ -92,16 +211,13 @@ width: 100%;
 height:600px;
 background-position: center;
 background-size: cover;
-img:hover 
-  opacity: 0.5;
-
 }
 
 #hello6 {
 font-family: 'Open Sans Condensed', sans-serif;
 color: black;
 float: right;
-text-align: center;
+text-align: left;
 }
 
 
@@ -112,37 +228,40 @@ text-align: center;
 
 .container {
   position: relative;
-  width: 800px; 
-  margin: left; 
+  
 
 }
 
 .container .content {
   position: absolute; 
-  bottom: 0; 
+  bottom: 20px; 
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.5); 
-  color: #f1f1f1; 
-  width: all; 
+  color: #f1f1f1;  
   padding: 20px; 
-  object-position: left;
+  padding-right: 20px;
+ 
+
 }
 
 #hello9 {
-padding-top: all;
 font-family: 'Open Sans Condensed', sans-serif;
 color: black;
 float: left;
 text-align: center;
-margin: right;
+margin: unset;
 }
 
 #hello11 {
 font-family: 'Open Sans Condensed', sans-serif;
-padding: 20px;
+padding: 40px;
 color: black;
-float: right;
-text-align: middle; 
+float: none;
+text-align: center; 
 font-size: 150%
+}
+
+ul {
+    list-style: none;
 }
 
